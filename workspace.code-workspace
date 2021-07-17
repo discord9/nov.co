@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"java.project.referencedLibraries": [
+			"lib/**/*.jar",
+			"d:\\StarSector\\ss0.9.1\\Starsector\\starsector-core\\starfarer.api.jar"
+		],
+		"java.project.exportJar.targetPath": "${workspaceFolder}/mods/UnityForce/jars/Unity_Force.jar"
+	}
+}

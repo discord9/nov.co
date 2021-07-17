@@ -1,0 +1,11 @@
+{
+    "id": "unity_force",
+    "name": "Unity Force",
+    "author": "OGAS, discord9",
+    "utility": "false",
+    "version": "1.0.0",
+    "description": "Add a Leninism communist faction, basically USSR in space.",
+    "gameVersion": "0.95a-RC15",
+    "jars":["jars/Unity_Force.jar"],
+    "modPlugin":"data.scripts.UnityForceModPlugin"
+}
