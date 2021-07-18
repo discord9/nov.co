@@ -1,4 +1,4 @@
-package data.scripts;
+package data.scripts.combat;
 
 import com.fs.starfarer.api.combat.MissileAPI;
 import com.fs.starfarer.api.combat.MissileAIPlugin;
@@ -9,7 +9,9 @@ import com.fs.starfarer.api.combat.ShipCommand;
 public class DrunkMissileAIPlugin implements MissileAIPlugin, GuidedMissileAI{
     protected MissileAPI missile;
     protected CombatEntityAPI target;
-    DrunkMissileAIPlugin(MissileAPI missile){
+    private int rngcnt=0;
+    private int[] rngpool = {5,6,4,8,1,9,7,2,10,3};
+    public DrunkMissileAIPlugin(MissileAPI missile){
         this.missile = missile;
     };
     
@@ -23,6 +25,13 @@ public class DrunkMissileAIPlugin implements MissileAIPlugin, GuidedMissileAI{
     public void advance(float amount){
         //give order to missile by giveCommand()
         //now always turn left to see if it actually work
-        this.missile.giveCommand(ShipCommand.TURN_LEFT);
+        float elapsed = this.missile.getElapsed();
+        if(elapsed>0.0){
+            float throttle = 1;
+            if(this.rngpool[this.rngcnt++]<=throttle)
+            this.missile.giveCommand(ShipCommand.ACCELERATE);
+            if(this.rngcnt>=10)this.rngcnt=0;
+        }
+        //float Kp = 1.0f;
     };
 }
