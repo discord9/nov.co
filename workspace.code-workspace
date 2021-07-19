@@ -18,7 +18,9 @@
 			"d:\\StarSector\\ss0.9.1\\Starsector\\starsector-core\\log4j-1.2.9.jar",
 			"d:\\StarSector\\ss0.9.1\\Starsector\\starsector-core\\lwjgl.jar",
 			"d:\\StarSector\\ss0.9.1\\Starsector\\starsector-core\\lwjgl_util.jar",
-			"d:\\StarSector\\ss0.9.1\\Starsector\\starsector-core\\xstream-1.4.10.jar"
+			"d:\\StarSector\\ss0.9.1\\Starsector\\starsector-core\\xstream-1.4.10.jar",
+			"d:\\StarSector\\ss0.9.1\\Starsector\\mods\\LazyLib\\jars\\LazyLib.jar",
+			"d:\\StarSector\\ss0.9.1\\Starsector\\mods\\MagicLib\\jars\\MagicLib.jar"
 		],
 		"java.project.exportJar.targetPath": "${workspaceFolder}/mods/UnityForce/jars/Unity_Force.jar"
 	}

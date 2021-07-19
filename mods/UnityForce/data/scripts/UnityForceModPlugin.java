@@ -5,10 +5,11 @@ import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.combat.MissileAIPlugin;
 import com.fs.starfarer.api.combat.MissileAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
+
+import data.scripts.combat.ColdLaunchMissileAIPlugin;
+
 import com.fs.starfarer.api.PluginPick;
 import com.fs.starfarer.api.campaign.CampaignPlugin.PickPriority;
-import data.scripts.DrunkMissileAIPlugin;
-//import DrunkMissileAIPlugin;
 
 public class UnityForceModPlugin extends BaseModPlugin{
     //test
@@ -17,7 +18,7 @@ public class UnityForceModPlugin extends BaseModPlugin{
         //return super.pickMissileAI(missile, launchingShip);
         //用自己写的导弹AI
         
-        MissileAIPlugin missileAI = new DrunkMissileAIPlugin(missile);
+        MissileAIPlugin missileAI = new ColdLaunchMissileAIPlugin(missile);
         return new PluginPick<MissileAIPlugin>(missileAI, PickPriority.MOD_SET);
     }
 }

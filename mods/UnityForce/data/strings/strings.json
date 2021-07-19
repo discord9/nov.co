@@ -1,0 +1,40 @@
+{
+    "market_condition":{
+        "common_wish_title": "共同景愿",
+        "common_wish_desc": "共同景愿：添加2点稳定。",
+        "shared_weal_title": "同甘共苦",
+        "shared_weal_desc": "同甘共苦：新建成殖民地有一支苏联舰队主动为其巡逻，为期3个月，若殖民地到达4级则提前取消。"
+    },
+
+    "sector_entity_name":{
+        "dawn": "黎明",
+        "novgorod": "诺夫哥罗德",
+        "storozevoj": "警戒",
+        "tamanskaya": "塔曼斯卡娅",
+        "ryazan": "梁赞",
+        "peking": "北平",
+        "volga": "伏尔加",
+        "river_don": "顿河",
+        "tunguska": "通古斯",
+
+        "newborn": "新生",
+        "konigsberg": "柯尼斯堡",
+        "gelsenkirchen": "盖尔森基辛",
+        "kiel": "基尔",
+        "munich": "慕尼黑",
+        "rhudaur": "鲁道尔",
+
+        "vision": "远景",
+        "touraine": "都兰",
+        "toulon": "土伦",
+        "paris": "巴黎",
+        "artois": "阿图瓦",
+        "orleans": "奥尔良",
+        "dunkirk": "敦刻尔克",
+
+        "alsace": "阿尔萨斯",
+        "lorraine": "洛林",
+        "strasbourg": "斯特拉斯堡",
+        "haguenau": "阿格诺"
+    }
+}

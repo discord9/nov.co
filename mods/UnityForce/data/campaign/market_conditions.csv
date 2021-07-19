@@ -1,0 +1,2 @@
+name,id,planetary,decivRemove,script,desc,icon,order
+Common Wish,common_wish,TRUE,,data.scripts.campaign.econ.CommonWish,"Common Wish: Increase Stability by 2.",graphics/icons/markets/urbanized_polity.png,130

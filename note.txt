@@ -1,0 +1,8 @@
+EveryFrameCombatPlugin 实现一个用来控制导弹群的类
+
+everyFrameEffect:
+SensorDishRotationEffect  	advance(float amount, CombatEngineAPI engine, WeaponAPI weapon)
+
+EveryFrameWeaponEffectPlugin
+
+New instances of every CombatEnginePlugin are now created per battle, rather than single instances persisting throughout the entire game

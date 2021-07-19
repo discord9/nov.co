@@ -11,8 +11,10 @@ public class DrunkMissileAIPlugin implements MissileAIPlugin, GuidedMissileAI{
     protected CombatEntityAPI target;
     private int rngcnt=0;
     private int[] rngpool = {5,6,4,8,1,9,7,2,10,3};
+    private float AverageInterval=0.0f;
     public DrunkMissileAIPlugin(MissileAPI missile){
         this.missile = missile;
+        //Global.getLogger(this.getClass()).info("Missile speed"+missile.getMaxSpeed());
     };
     
     public CombatEntityAPI getTarget(){
@@ -23,15 +25,24 @@ public class DrunkMissileAIPlugin implements MissileAIPlugin, GuidedMissileAI{
     };
     
     public void advance(float amount){
+        if(this.AverageInterval==0.0f)
+            this.AverageInterval = amount;
         //give order to missile by giveCommand()
         //now always turn left to see if it actually work
         float elapsed = this.missile.getElapsed();
-        if(elapsed>0.0){
-            float throttle = 1;
-            if(this.rngpool[this.rngcnt++]<=throttle)
+        
+        int throttle = 5;
+        int adjustThrottle = (int)(throttle * this.AverageInterval/amount);
+        //adjust throttle using time passed by.
+        //the goal is to have a PWM-ish missile engine.
+        if(this.rngpool[this.rngcnt]<=adjustThrottle)
             this.missile.giveCommand(ShipCommand.ACCELERATE);
-            if(this.rngcnt>=10)this.rngcnt=0;
-        }
+        this.missile.giveCommand(ShipCommand.TURN_LEFT);
+        if(++this.rngcnt>=this.rngpool.length)this.rngcnt=0;
+        
         //float Kp = 1.0f;
-    };
+        
+        this.AverageInterval = 0.9f * this.AverageInterval + 0.1f * amount;
+        //average over time
+    }
 }
