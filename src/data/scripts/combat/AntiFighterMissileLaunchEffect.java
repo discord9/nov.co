@@ -17,7 +17,7 @@ public class AntiFighterMissileLaunchEffect implements EveryFrameWeaponEffectPlu
     private boolean isReloading = false;
     private float startReloadTime = 0.0f;
     private static float reloadingTime = 3.0f;
-    private int maxRange = 1500;//Ref: WG:RD
+    private int maxRange = 3325;//Ref: WG:RD
     private String missileId = "uf_9M311_launcher";
 
     public void advance(float amount, CombatEngineAPI engine, WeaponAPI weapon){

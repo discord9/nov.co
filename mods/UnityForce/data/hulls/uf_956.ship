@@ -1,0 +1,217 @@
+{
+  "hullName": "956",
+  "hullId": "uf_956",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/uf_956.png",
+  "style": "MIDLINE",
+  "height": 212,
+  "width": 89,
+  "center": [44.5, 106],
+  "collisionRadius": 174,
+  "shieldCenter": [0.5, -0],
+  "shieldRadius": 133.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -0,
+      "locations": [15, -0.5]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -45,
+      "locations": [-21, -22.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 45,
+      "locations": [-21, 21.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 180,
+      "locations": [-61, -0.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-10, -0.5]
+    }
+  ],
+  "builtInWeapons": {
+        "WS0005": "pilum"
+    },
+  "engineSlots": [
+    {
+      "location": [-106, -1],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleSpec": {
+        "type": "GLOW",
+        "engineColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "engineCampaignColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mode": "",
+        "contrailColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrailCampaignColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrailParticleSizeMult": 0,
+        "contrailParticleFinalSizeMult": 0,
+        "contrailMaxSpeedMult": 0,
+        "contrailAngularVelocityMult": 0,
+        "contrailParticleDuration": 0
+      }
+    },
+    {
+      "location": [-82, -23],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleSpec": {
+        "type": "GLOW",
+        "engineColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "engineCampaignColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mode": "",
+        "contrailColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrailCampaignColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrailParticleSizeMult": 0,
+        "contrailParticleFinalSizeMult": 0,
+        "contrailMaxSpeedMult": 0,
+        "contrailAngularVelocityMult": 0,
+        "contrailParticleDuration": 0
+      }
+    },
+    {
+      "location": [-82.5, 21.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleSpec": {
+        "type": "GLOW",
+        "engineColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "engineCampaignColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mode": "",
+        "contrailColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrailCampaignColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrailParticleSizeMult": 0,
+        "contrailParticleFinalSizeMult": 0,
+        "contrailMaxSpeedMult": 0,
+        "contrailAngularVelocityMult": 0,
+        "contrailParticleDuration": 0
+      }
+    }
+  ],
+  "bounds": [
+    -107.5, -8,
+    -90, -27.5,
+    -85, -39,
+    -77.5, -46,
+    -54, -40,
+    -34.5, -38.5,
+    1, -26,
+    33.5, -16,
+    37.5, -30,
+    50.5, -30,
+    56.5, -14.5,
+    89, -15,
+    108.5, -7,
+    108.5, 7,
+    89, 15,
+    56.5, 14.5,
+    50.5, 30,
+    37.5, 30,
+    33.5, 16,
+    1, 26,
+    -34.5, 38.5,
+    -54, 40,
+    -77.5, 46,
+    -85, 39,
+    -90, 27.5,
+    -107.5, 8
+  ]
+}
