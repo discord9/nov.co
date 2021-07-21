@@ -1,4 +1,4 @@
-package data.scripts.combat;
+package data.scripts.combat.MissileAIPlugin;
 
 import com.fs.starfarer.api.combat.MissileAPI;
 import com.fs.starfarer.api.combat.MissileAIPlugin;

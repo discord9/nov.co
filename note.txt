@@ -1,7 +1,10 @@
 EveryFrameCombatPlugin 实现一个用来控制导弹群的类
+getCombatEngine addPlugin
 
 everyFrameEffect:
 SensorDishRotationEffect  	advance(float amount, CombatEngineAPI engine, WeaponAPI weapon)
+
+ShipAPI.isFighter
 
 EveryFrameWeaponEffectPlugin
 
