@@ -1,0 +1,27 @@
+{
+	"specClass":"beam",
+	#"specClass":"projectile",
+	"id":"uf_nav_light_956",  # this id must match what's in the spreadsheet
+	"type":"DECORATIVE",
+	"size":"SMALL",
+	#"everyFrameEffect":"data.scripts.combat.NavLightBlink",
+	"showDamageWhenDecorative":false,
+	"renderBelowAllWeapons":true,
+	"renderHints":["RENDER_ADDITIVE"],	
+	"turretSprite":"graphics/weapons/decorative/uf_nav_light00.png",
+	"hardpointSprite":"graphics/weapons/decorative/uf_nav_light00.png",
+	"numFrames":2,
+	"frameRate":1,
+	"alwaysAnimate":"true",#false for blinker 
+	"turretOffsets":[0, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[0, 0],
+	"hardpointAngleOffsets":[0],	
+	"fringeColor":[255,255,255,255],
+	"coreColor":[255,255,255,255],
+	"glowColor":[255,255,255,255],
+	"width":1.0,
+	"textureType":ROUGH,
+	"textureScrollSpeed":1.0,
+	"pixelsPerTexel":1.0,
+}
