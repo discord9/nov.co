@@ -5,7 +5,7 @@
 	"sprite":"graphics/missiles/missile_uf_zircon_stage_one.png",
 	"size":[10,31],	
 	"center":[5,8],
-	"collisionRadius":8,
+	"collisionRadius":3,
 	"collisionClass":"MISSILE_NO_FF",
 	"explosionColor":[255,165,50,255],  # purely visual, will get a white additively blended core on top of this color
 	"explosionRadius":125, # purely visual
