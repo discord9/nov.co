@@ -1,0 +1,62 @@
+{
+  "id": "uf_zircon_launcher",
+  "specClass": "projectile",
+  "projectileSpecId": "uf_zircon",
+  "type": "MISSILE",
+  "size": "MEDIUM",
+  "everyFrameEffect": "data.scripts.combat.MissileSiloHatch1144",
+  "turretSprite": "graphics/weapons/Zircon1144/uf_zircon_launcher_turret_base00.png",
+  "hardpointSprite": "graphics/weapons/Zircon1144/uf_zircon_launcher_hardpoint_base00.png",
+  "turretOffsets": [
+    -6,
+    -4.5,
+    6,
+    4.5,
+    -6,
+    4.5,
+    6,
+    -4.5,
+    0,
+    -7.5,
+    0,
+    7.5
+  ],
+  "turretAngleOffsets": [0,0,0,0,0,0],#[-135,45,135,-45,-90,90],
+  "hardpointOffsets": [
+    -0.5,
+    -4.5,
+    11.5,
+    4.5,
+    -0.5,
+    4.5,
+    11.5,
+    -4.5,
+    5.5,
+    -7.5,
+    5.5,
+    7.5
+  ],
+  "hardpointAngleOffsets": [0,0,0,0,0,0],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "numFrames": 8,
+  "frameRate": 1,
+  "smokeSpec": {
+    "particleSizeMin": 20,
+    "particleSizeRange": 20,
+    "cloudParticleCount": 3,
+    "cloudDuration": 1,
+    "cloudRadius": 10,
+    "blowbackParticleCount": 3,
+    "blowbackDuration": 2,
+    "blowbackLength": 30,
+    "blowbackSpread": 10,
+    "particleColor": [
+      100,
+      100,
+      100,
+      200
+    ]
+  },
+  "fireSoundTwo": "pilum_lrm_fire"
+}

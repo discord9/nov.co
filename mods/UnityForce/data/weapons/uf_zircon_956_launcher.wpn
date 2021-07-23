@@ -1,12 +1,12 @@
 {
-  "id": "uf_3S26U2_launcher",
+  "id": "uf_zircon_956_launcher",
   "specClass": "projectile",
-  "projectileSpecId": "uf_9M311",
+  "projectileSpecId": "uf_zircon",
   "type": "MISSILE",
   "size": "MEDIUM",
   "everyFrameEffect": "data.scripts.combat.MissileSiloHatch956",
-  "turretSprite": "graphics/weapons/3S26U2/uf_3S26U2_launcher_turret_base00.png",
-  "hardpointSprite": "graphics/weapons/3S26U2/uf_3S26U2_launcher_hardpoint_base00.png",
+  "turretSprite": "graphics/weapons/Zircon956/uf_zircon_956_launcher_turret_base00.png",
+  "hardpointSprite": "graphics/weapons/Zircon956/uf_zircon_956_launcher_hardpoint_base00.png",
   "turretOffsets": [
     -6,
     -4.5,

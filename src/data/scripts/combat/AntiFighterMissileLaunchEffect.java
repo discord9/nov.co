@@ -1,6 +1,5 @@
 package data.scripts.combat;
 
-import java.util.Vector;
 
 import com.fs.starfarer.api.AnimationAPI;
 import com.fs.starfarer.api.Global;
@@ -16,7 +15,7 @@ import data.scripts.ai.MagicMissileAI;
 import data.scripts.util.MagicTargeting;
 
 public class AntiFighterMissileLaunchEffect implements EveryFrameWeaponEffectPlugin{
-    private int missileNum = 8;
+    private int missileNum,maxMissileNum=-1;//CustomPrimary
     private boolean leftLoad=true,rightLoad=true;
     private boolean isReloading = false;
     private float startReloadTime = 0.0f;
@@ -25,6 +24,9 @@ public class AntiFighterMissileLaunchEffect implements EveryFrameWeaponEffectPlu
     private String missileId = "uf_9M311_launcher";
 
     public void advance(float amount, CombatEngineAPI engine, WeaponAPI weapon){
+        if(maxMissileNum==-1){
+            missileNum = maxMissileNum = Integer.parseInt(weapon.getSpec().getCustomPrimary());
+        }
         if(weapon==null||weapon.getAnimation()==null)return;
         //weapon do not animate or ship get destroy
         //check if needed to launch missile

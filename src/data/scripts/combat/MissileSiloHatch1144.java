@@ -5,7 +5,7 @@ import com.fs.starfarer.api.combat.CombatEngineAPI;
 import com.fs.starfarer.api.combat.EveryFrameWeaponEffectPlugin;
 import com.fs.starfarer.api.combat.WeaponAPI;
 
-public class MissileSiloHatch956 implements EveryFrameWeaponEffectPlugin{
+public class MissileSiloHatch1144 implements EveryFrameWeaponEffectPlugin{
     private AnimationAPI animation=null;
     public void advance(float amount, CombatEngineAPI engine, WeaponAPI weapon){
         // set hatch open level by charge level

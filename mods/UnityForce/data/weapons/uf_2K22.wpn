@@ -3,8 +3,8 @@
 	"specClass":"projectile",
 	"type":"BALLISTIC",
 	"size":"SMALL",
-	"everyFrameEffect": "data.scripts.combat.AntiFighterMissileLaunchEffect",
-	"numFrames":5,
+	"everyFrameEffect": "data.scripts.combat.AntiFighterMissileLaunchEffect", #防空导弹载弹量请修改weapon_data.csv的customPrimary列
+	"numFrames":6,
 	"frameRate":30,
 	"displayArcRadius":250,
 	"turretSprite":"graphics/weapons/2K22/uf_2K22_turret_base00.png",
