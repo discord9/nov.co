@@ -10,6 +10,7 @@ import data.scripts.ai.MagicMissileAI;
 import data.scripts.combat.MissileAIPlugin.ColdLaunchMissileAIPlugin;
 import data.scripts.combat.MissileAIPlugin.StageDetachMissileAIPlugin;
 import data.scripts.combat.MissileAIPlugin.PSE_BaseCompetentMissileAI;
+import data.scripts.combat.MissileAIPlugin.PSE_withPriorityMissileAI;
 import data.scripts.world.UnityForceModGen;
 
 import com.fs.starfarer.api.PluginPick;
@@ -32,7 +33,7 @@ public class UnityForceModPlugin extends BaseModPlugin{
             case "uf_zircon_stage_two":
                 //use custom AI
                 //switch to PSE maybe?
-                PSE_BaseCompetentMissileAI ai = new PSE_BaseCompetentMissileAI(missile, launchingShip);
+                PSE_withPriorityMissileAI ai = new PSE_withPriorityMissileAI(missile, launchingShip,0,1,2,3,4);
                 return new PluginPick<MissileAIPlugin>(ai, PickPriority.MOD_SET);
             case "uf_zircon":
                 Global.getLogger(this.getClass()).info("Pick AI for Zircon Missile!");

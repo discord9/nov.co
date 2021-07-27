@@ -1,0 +1,19 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "d:\\StarSector\\ss0.9.1\\Starsector\\starsector-core\\commons-compiler.jar",
+        "d:\\StarSector\\ss0.9.1\\Starsector\\starsector-core\\commons-compiler-jdk.jar",
+        "d:\\StarSector\\ss0.9.1\\Starsector\\starsector-core\\janino.jar",
+        "d:\\StarSector\\ss0.9.1\\Starsector\\starsector-core\\jinput.jar",
+        "d:\\StarSector\\ss0.9.1\\Starsector\\starsector-core\\jogg-0.0.7.jar",
+        "d:\\StarSector\\ss0.9.1\\Starsector\\starsector-core\\jorbis-0.0.15.jar",
+        "d:\\StarSector\\ss0.9.1\\Starsector\\starsector-core\\json.jar",
+        "d:\\StarSector\\ss0.9.1\\Starsector\\starsector-core\\log4j-1.2.9.jar",
+        "d:\\StarSector\\ss0.9.1\\Starsector\\starsector-core\\lwjgl.jar",
+        "d:\\StarSector\\ss0.9.1\\Starsector\\starsector-core\\lwjgl_util.jar",
+        "d:\\StarSector\\ss0.9.1\\Starsector\\starsector-core\\starfarer.api.jar",
+        "d:\\StarSector\\ss0.9.1\\Starsector\\starsector-core\\xstream-1.4.10.jar",
+        "d:\\StarSector\\ss0.9.1\\Starsector\\mods\\LazyLib\\jars\\LazyLib.jar",
+        "d:\\StarSector\\ss0.9.1\\Starsector\\mods\\MagicLib\\jars\\MagicLib.jar"
+    ]
+}

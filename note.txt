@@ -1,3 +1,9 @@
+莫斯电码：
+一点=1t
+一划=3t
+字母内间隔=2t
+字母间间隔=7t
+
 EveryFrameCombatPlugin 实现一个用来控制导弹群的类
 getCombatEngine addPlugin
 

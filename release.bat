@@ -6,4 +6,4 @@ echo %zip_name%
 pause
 zip src.zip -xi -r src
 copy src.zip /y mods\UnityForce\jars
-zip %zip_name% -xi -r mods\UnityForce
+zip releases\%zip_name% -xi -r mods\UnityForce

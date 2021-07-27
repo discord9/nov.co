@@ -19,13 +19,13 @@ import org.lwjgl.util.vector.Vector2f;
 import data.scripts.util.MagicTargeting;
 
 
-public class StageDetachMissileAIPlugin extends PSE_BaseCompetentMissileAI{
+public class StageDetachMissileAIPlugin extends PSE_withPriorityMissileAI{
     private JSONObject behaviorSpec;
     private String upperStageWrapperId,behavior,lowerStageWrapperId;
     private float detachRange;
     //改成继承PSE
     public StageDetachMissileAIPlugin(MissileAPI missile, ShipAPI launchingShip){
-        super(missile,launchingShip);
+        super(missile,launchingShip,0,1,2,3,4);
         behaviorSpec = missile.getBehaviorSpecParams();
         try{
             Global.getLogger(this.getClass()).info("parse behaviorSpec of "+missile.getProjectileSpecId());
@@ -41,28 +41,6 @@ public class StageDetachMissileAIPlugin extends PSE_BaseCompetentMissileAI{
             Global.getLogger(this.getClass()).info("error when parse behaviorSpec of "+missile.getProjectileSpecId());
             //强制退出？
         }
-    }
-    @Override
-    protected CombatEntityAPI findTarget(){
-        int fighters=0,
-            frigates=1, 
-            destroyers=2,
-            cruisers=3,
-            capitals=4;
-        ShipAPI pickTarget = MagicTargeting.pickTarget(
-            missile,
-            MagicTargeting.targetSeeking.FULL_RANDOM,
-            1800,//max search range
-            360,//cone
-            fighters,
-            frigates, 
-            destroyers,
-            cruisers,
-            capitals, 
-            true
-        );
-        //Global.getLogger(this.getClass()).info(String.format( "New target:%s", pickTarget.getName()));
-        return pickTarget;
     }
     public void advance(float amount){
         super.advance(amount);
