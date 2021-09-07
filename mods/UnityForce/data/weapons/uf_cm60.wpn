@@ -1,0 +1,53 @@
+{
+  "id": "uf_cm60",
+  "specClass": "projectile",
+  "projectileSpecId": "uf_cm40_shot",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "displayArcRadius": 250,
+  "turretSprite": "graphics/weapons/CM60/uf_CM60_turret_base.png",
+  "turretGunSprite": "graphics/weapons/CM60/uf_CM60_turret_recoil.png",
+  "hardpointSprite": "graphics/weapons/CM60/uf_CM60_hardpoint_base.png",
+  "hardpointGunSprite": "graphics/weapons/CM60/uf_CM60_hardpoint_recoil.png",
+  "visualRecoil": 10,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    37,
+    -8,
+    37,
+    8
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    57,
+    -8,
+    57,
+    8.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 20,
+    "spread": 6,
+    "particleSizeMin": 6,
+    "particleSizeRange": 8,
+    "particleDuration": 0.15,
+    "particleCount": 7,
+    "particleColor": [
+      255,
+      240,
+      165,
+      200
+    ]
+  },
+  "fireSoundTwo": "light_machinegun_fire"
+}

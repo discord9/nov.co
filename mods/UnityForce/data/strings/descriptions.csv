@@ -2,3 +2,4 @@ id,type,text1,text2,text3,notes
 uss_dawn_novgorod,CUSTOM,,,,
 uf_2A38,WEAPON,"2A38 dual cannon,anti fighter and missile.",Anti Air,,
 uf_2K22,WEAPON,"2A38 combine with 9M311 anti air missile.",Anti Air,,
+uf_su32,SHIP,"Su-32 Interceptor's Description.",Anti Air,,

@@ -1,0 +1,22 @@
+{
+  "variantId": "uf_su32_variant",
+  "hullId": "uf_su32",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "uf_zircon_stage_two_wrapper"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

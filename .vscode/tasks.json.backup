@@ -7,7 +7,7 @@
 			"targetPath": "${workspaceFolder}/mods/UnityForce/jars/Unity_Force.jar",
 			"elements": [
 				"${compileOutput}",
-				//"${dependencies}"
+				"${dependencies}"
 			],
 			"problemMatcher": [],
 			"label": "java: exportjar:NeoUSSR"

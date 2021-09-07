@@ -7,5 +7,9 @@
     "description": "Add a Leninism communist faction, basically USSR in space.",
     "gameVersion": "0.95a-RC15",
     "jars":["jars/Unity_Force.jar"],
+    "dependencies": [
+        {"id": "lw_lazylib", "name": "LazyLib"},
+        {"id": "MagicLib", "name": "MagicLib"}
+    ],
     "modPlugin":"data.scripts.UnityForceModPlugin"
 }

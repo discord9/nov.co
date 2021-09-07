@@ -1,0 +1,55 @@
+{
+  "hullName": "Su-32",
+  "hullId": "uf_su32",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/su32.png",
+  "style": "MIDLINE",
+  "height": 42,
+  "width": 40,
+  "center": [20, 19],
+  "collisionRadius": 29.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 24,
+  "viewOffset": 0,
+  "builtInMods": [
+    "no_weapon_flux"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [-2, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-16.5, -4.5],
+      "length": 16,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 32,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-16.5, 4.5],
+      "length": 16,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 32,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    23, -0.5,
+    7, 7,
+    -8.5, 9.5,
+    -14, 4,
+    -14, -4,
+    -8.5, -9.5,
+    7.5, -7
+  ]
+}

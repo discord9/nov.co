@@ -1,0 +1,194 @@
+{
+  "hullName": "1138",
+  "hullId": "uf_1138",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/uf_1138.png",
+  "style": "MIDLINE",
+  "height": 346,
+  "width": 258,
+  "center": [129, 180.5],
+  "collisionRadius": 249.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 195,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0001": "uf_zircon_1138_launcher"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-80.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-20.5, -0.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -45,
+      "locations": [-52.5, -18]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 45,
+      "locations": [-52.5, 18]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-140.5, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [100.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-138, -30.5],
+      "length": 30,
+      "width": 10,
+      "angle": -177.5,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleSpec": {
+        "type": "GLOW",
+        "engineColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "engineCampaignColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mode": "",
+        "contrailColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrailCampaignColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrailParticleSizeMult": 0,
+        "contrailParticleFinalSizeMult": 0,
+        "contrailMaxSpeedMult": 0,
+        "contrailAngularVelocityMult": 0,
+        "contrailParticleDuration": 0
+      }
+    },
+    {
+      "location": [-138, 30.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleSpec": {
+        "type": "GLOW",
+        "engineColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "engineCampaignColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mode": "",
+        "contrailColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrailCampaignColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrailParticleSizeMult": 0,
+        "contrailParticleFinalSizeMult": 0,
+        "contrailMaxSpeedMult": 0,
+        "contrailAngularVelocityMult": 0,
+        "contrailParticleDuration": 0
+      }
+    }
+  ],
+  "bounds": [
+    -173, -7,
+    -152.5, -14.5,
+    -104, -22,
+    -140.5, -31,
+    -148, -40.5,
+    -127, -50,
+    -127.5, -77,
+    -118.5, -77,
+    -131, -115.5,
+    -108.5, -132,
+    -21, -33.5,
+    77.5, -19.5,
+    112.5, -16.5,
+    118, -41,
+    127.5, -40.5,
+    131, -14,
+    167.5, -10.5,
+    167.5, 10.5,
+    131, 14,
+    127.5, 40.5,
+    118, 41,
+    112.5, 16.5,
+    77.5, 19.5,
+    -21, 33.5,
+    -108.5, 132,
+    -131, 115.5,
+    -118.5, 77,
+    -127.5, 77,
+    -127, 50,
+    -148, 40.5,
+    -140.5, 31,
+    -104, 22,
+    -152.5, 14.5,
+    -173, 7,
+    -187, -0.5
+  ]
+}

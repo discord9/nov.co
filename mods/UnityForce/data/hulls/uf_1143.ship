@@ -1,0 +1,508 @@
+{
+  "hullName": "1143",
+  "hullId": "uf_1143",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/uf_1143.png",
+  "style": "MIDLINE",
+  "height": 403,
+  "width": 272,
+  "center": [135, 190],
+  "collisionRadius": 223,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 182,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0007": "uf_zircon_1143a_launcher",
+    "WS0010": "uf_zircon_1143b_launcher"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 180,
+      "locations": [-73.5, 37]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 172.5,
+      "locations": [64, -0]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 360,
+      "angle": 0,
+      "locations": [85.5, -0]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 180,
+      "locations": [-73, -35.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 0,
+      "locations": [138, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 60,
+      "locations": [0, 20]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -60,
+      "locations": [0, -20]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 180,
+      "locations": [-143, -24]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 180,
+      "locations": [-143, 24]
+    },
+    {
+      "id": "WS0010",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-119, -0]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-25.5, 5]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-26, -6.5]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-90.5, -7]
+    },
+    {
+      "id": "LB 4",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-90.5, 6]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-179, -32],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleSpec": {
+        "type": "GLOW",
+        "engineColor": [
+          0,
+          0,
+          0,
+          120
+        ],
+        "engineCampaignColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mode": "",
+        "contrailColor": [
+          0,
+          0,
+          0,
+          120
+        ],
+        "contrailCampaignColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrailParticleSizeMult": 0,
+        "contrailParticleFinalSizeMult": 0,
+        "contrailMaxSpeedMult": 0,
+        "contrailAngularVelocityMult": 0,
+        "contrailParticleDuration": 0
+      }
+    },
+    {
+      "location": [-179, 32],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleSpec": {
+        "type": "GLOW",
+        "engineColor": [
+          0,
+          0,
+          0,
+          120
+        ],
+        "engineCampaignColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mode": "",
+        "contrailColor": [
+          0,
+          0,
+          0,
+          120
+        ],
+        "contrailCampaignColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrailParticleSizeMult": 0,
+        "contrailParticleFinalSizeMult": 0,
+        "contrailMaxSpeedMult": 0,
+        "contrailAngularVelocityMult": 0,
+        "contrailParticleDuration": 0
+      }
+    },
+    {
+      "location": [-173.5, -40.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleSpec": {
+        "type": "GLOW",
+        "engineColor": [
+          0,
+          0,
+          0,
+          120
+        ],
+        "engineCampaignColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mode": "",
+        "contrailColor": [
+          0,
+          0,
+          0,
+          120
+        ],
+        "contrailCampaignColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrailParticleSizeMult": 0,
+        "contrailParticleFinalSizeMult": 0,
+        "contrailMaxSpeedMult": 0,
+        "contrailAngularVelocityMult": 0,
+        "contrailParticleDuration": 0
+      }
+    },
+    {
+      "location": [-173.5, 40.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleSpec": {
+        "type": "GLOW",
+        "engineColor": [
+          0,
+          0,
+          0,
+          120
+        ],
+        "engineCampaignColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mode": "",
+        "contrailColor": [
+          0,
+          0,
+          0,
+          120
+        ],
+        "contrailCampaignColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrailParticleSizeMult": 0,
+        "contrailParticleFinalSizeMult": 0,
+        "contrailMaxSpeedMult": 0,
+        "contrailAngularVelocityMult": 0,
+        "contrailParticleDuration": 0
+      }
+    },
+    {
+      "location": [-167, -47.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleSpec": {
+        "type": "GLOW",
+        "engineColor": [
+          0,
+          0,
+          0,
+          120
+        ],
+        "engineCampaignColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mode": "",
+        "contrailColor": [
+          0,
+          0,
+          0,
+          120
+        ],
+        "contrailCampaignColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrailParticleSizeMult": 0,
+        "contrailParticleFinalSizeMult": 0,
+        "contrailMaxSpeedMult": 0,
+        "contrailAngularVelocityMult": 0,
+        "contrailParticleDuration": 0
+      }
+    },
+    {
+      "location": [-167, 47.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleSpec": {
+        "type": "GLOW",
+        "engineColor": [
+          0,
+          0,
+          0,
+          120
+        ],
+        "engineCampaignColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mode": "",
+        "contrailColor": [
+          0,
+          0,
+          0,
+          120
+        ],
+        "contrailCampaignColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrailParticleSizeMult": 0,
+        "contrailParticleFinalSizeMult": 0,
+        "contrailMaxSpeedMult": 0,
+        "contrailAngularVelocityMult": 0,
+        "contrailParticleDuration": 0
+      }
+    },
+    {
+      "location": [-159, -54],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleSpec": {
+        "type": "GLOW",
+        "engineColor": [
+          0,
+          0,
+          0,
+          120
+        ],
+        "engineCampaignColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mode": "",
+        "contrailColor": [
+          0,
+          0,
+          0,
+          120
+        ],
+        "contrailCampaignColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrailParticleSizeMult": 0,
+        "contrailParticleFinalSizeMult": 0,
+        "contrailMaxSpeedMult": 0,
+        "contrailAngularVelocityMult": 0,
+        "contrailParticleDuration": 0
+      }
+    },
+    {
+      "location": [-159, 54],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleSpec": {
+        "type": "GLOW",
+        "engineColor": [
+          0,
+          0,
+          0,
+          120
+        ],
+        "engineCampaignColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mode": "",
+        "contrailColor": [
+          0,
+          0,
+          0,
+          120
+        ],
+        "contrailCampaignColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrailParticleSizeMult": 0,
+        "contrailParticleFinalSizeMult": 0,
+        "contrailMaxSpeedMult": 0,
+        "contrailAngularVelocityMult": 0,
+        "contrailParticleDuration": 0
+      }
+    }
+  ],
+  "bounds": [
+    -164, -6,
+    -156, -13,
+    -187, -24.5,
+    -147, -61.5,
+    -136, -69,
+    -145, -99.5,
+    -130.5, -100.5,
+    -121.5, -135,
+    -98, -136,
+    -64.5, -88.5,
+    42, -40.5,
+    85, -20.5,
+    128.5, -16.5,
+    180, -12.5,
+    211, -6.5,
+    211, 6.5,
+    180, 12.5,
+    128.5, 16.5,
+    85, 20.5,
+    42, 40.5,
+    -64.5, 88.5,
+    -98, 136,
+    -121.5, 135,
+    -130.5, 100.5,
+    -145, 99.5,
+    -136, 69,
+    -147, 61.5,
+    -187, 24.5,
+    -156, 13,
+    -164, 6
+  ]
+}
