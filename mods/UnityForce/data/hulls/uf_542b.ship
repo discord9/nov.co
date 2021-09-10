@@ -1,0 +1,66 @@
+{
+  "hullName": "542B",
+  "hullId": "uf_542b",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/uf_542b.png",
+  "style": "LOW_TECH",
+  "height": 219,
+  "width": 136,
+  "center": [68, 109.5],
+  "collisionRadius": 141,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 123,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0001": "radar_542b"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-5.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-88.5, 25],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-88.5, -25],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -110.5, -2.5,
+    -88.5, -8.5,
+    -88.5, -29.5,
+    -65.5, -35.5,
+    -60, -51.5,
+    -28.5, -69,
+    -14, -44.5,
+    35.5, -24.5,
+    109, -4.5,
+    109, 4.5,
+    35.5, 24.5,
+    -14, 44.5,
+    -28.5, 69,
+    -60, 51.5,
+    -65.5, 35.5,
+    -88.5, 29.5,
+    -88.5, 8.5,
+    -110.5, 2.5
+  ]
+}

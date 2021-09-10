@@ -12,18 +12,17 @@
   "shieldRadius": 182,
   "viewOffset": 0,
   "builtInWeapons": {
-    "WS0007": "uf_zircon_launcher"
+    "WS0007": "uf_zircon_launcher",
+    "WS0008": "blinker_green",
+    "WS0009": "blinker_red",
+    "WS0010": "blinker_green",
+    "WS0011": "blinker_red",
+    "WS0012": "blinker_green",
+    "WS0013": "blinker_red",
+    "WS0014": "blinker_green",
+    "WS0015": "blinker_red"
   },
   "weaponSlots": [
-    {
-      "id": "WS0003",
-      "size": "SMALL",
-      "type": "UNIVERSAL",
-      "mount": "TURRET",
-      "arc": 180,
-      "angle": -45,
-      "locations": [-46, -47]
-    },
     {
       "id": "WS0004",
       "size": "SMALL",
@@ -77,6 +76,78 @@
       "arc": 360,
       "angle": 0,
       "locations": [60.5, -0]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-7.5, -82]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-7.5, 82]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [119.5, -33]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [119.5, 33]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-5.5, -64]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-5.5, 64]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-69.5, -63.5]
+    },
+    {
+      "id": "WS0015",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-69.5, 63.5]
     }
   ],
   "engineSlots": [

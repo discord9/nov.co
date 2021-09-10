@@ -1,0 +1,198 @@
+{
+  "hullName": "1135 Storozhevoy",
+  "hullId": "uf_1135",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/uf_1135.png",
+  "style": "LOW_TECH",
+  "height": 345,
+  "width": 300,
+  "center": [150, 172.5],
+  "collisionRadius": 238,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 202.5,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0010": "blinker_red",
+    "WS0011": "blinker_green",
+    "WS0012": "blinker_red",
+    "WS0013": "blinker_green",
+    "WS0014": "blinker_red",
+    "WS0015": "blinker_green"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 0,
+      "locations": [129.5, 1]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -45,
+      "locations": [-32.5, -18]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 45,
+      "locations": [-32.5, 18]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-88.5, -48]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 88.5,
+      "locations": [-88.5, 48]
+    },
+    {
+      "id": "WS0006",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [0.5, 1]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 0,
+      "locations": [54.5, 1]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 180,
+      "locations": [-135.5, 1]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-101.5, 150.5]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-101.5, -150.5]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [154.5, 38.5]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [154.5, -38.5]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-128.5, 69.5]
+    },
+    {
+      "id": "WS0015",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-128.5, -69.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-156, -41.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-156, 41.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -170.5, -5.5,
+    -123, -30.5,
+    -146.5, -30,
+    -159.5, -43.5,
+    -151, -50,
+    -111, -55.5,
+    -54.5, -60.5,
+    -21.5, -42,
+    3.5, -34,
+    39.5, -32,
+    81, -17.5,
+    118.5, -20.5,
+    153.5, -43.5,
+    173, -10,
+    173, 10,
+    153.5, 43.5,
+    118.5, 20.5,
+    81, 17.5,
+    39.5, 32,
+    3.5, 34,
+    -21.5, 42,
+    -54.5, 60.5,
+    -111, 55.5,
+    -151, 50,
+    -159.5, 43.5,
+    -146.5, 30,
+    -123, 30.5,
+    -170.5, 5.5
+  ]
+}

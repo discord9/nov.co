@@ -9,7 +9,7 @@
 	"frameRate":1,
 	"showDamageWhenDecorative":false,
 	"renderBelowAllWeapons":true,
-	"renderHints":["RENDER_ADDITIVE"],	
+	#"renderHints":["RENDER_ADDITIVE"],	
 	"turretSprite":"graphics/weapons/decorative/uf_nav_light00.png",
 	"hardpointSprite":"graphics/weapons/decorative/uf_nav_light00.png",
 	"alwaysAnimate":"true",#false for blinker 
