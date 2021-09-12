@@ -1,0 +1,121 @@
+{
+  "hullName": "Xp-Cru-Ar",
+  "hullId": "uf_xp_cru_ar",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/uf_xp_cru_ar.png",
+  "style": "MIDLINE",
+  "height": 1315,
+  "width": 424,
+  "center": [212, 657.5],
+  "collisionRadius": 866,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 732.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 0,
+      "locations": [44, -3]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 180,
+      "locations": [-326, 9]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 0,
+      "locations": [-98, 1]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 0,
+      "locations": [284, 1]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 0,
+      "locations": [-230, -115]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": -0,
+      "locations": [-230, 115]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 180,
+      "locations": [-500, -1]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 0,
+      "locations": [174, 1]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 0,
+      "locations": [-190, 1]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": -0,
+      "locations": [388, 1]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -655, -31,
+    -591, -71,
+    -375, -123,
+    -259, -207,
+    301, -59,
+    653, -35,
+    653, 35,
+    301, 59,
+    -259, 207,
+    -375, 123,
+    -591, 71,
+    -655, 31
+  ]
+}

@@ -1,3 +1,6 @@
+addship uf_956 2;addship uf_1138;addship uf_1144;addship uf_72;addship uf_11570 2;addship uf_1135;addship uf_542b;addship uf_1160a;addship uf_604 4;addweapon uf_2k22 99;addweapon uf_2a38 99;addweapon uf_cm40 50;addweapon uf_cm60 50;addwing su32_wing 50;addsupplies 200;addcrew 1000;addcredits 1000000;
+测试舰船：
+addship uf_xp_cap_ar;addship uf_xp_cru_ar;
 进度报告：
 ------
 注意：所有船只和武器的数据都没有针对平衡调整
@@ -13,14 +16,16 @@ Doomsday        彩蛋(装了16发速子长矛的典范)
 11570           完成
 1135 警戒       完成
 542B信息管制     完成
-1160A           等待
+1160A           完成
 604导弹护卫舰    等待
-测试舰-主力装甲uf_xp_cap_ar     等待
-测试舰-巡航装甲uf_xp_cru_ar     等待
-测试舰-主力导弹uf_xp_cap_msl    等待
-测试舰-巡航导弹uf_xp_cru_msl    等待
-测试舰-驱逐uf_xp_dd             等待
-测试舰-护卫uf_xp_ffg            等待
+测试舰-主力装甲uf_xp_cap_ar     完成
+测试舰-巡航装甲uf_xp_cru_ar     完成
+测试舰-主力导弹uf_xp_cap_msl    请直接使用1160A级进行测试
+测试舰-巡航导弹uf_xp_cru_msl    请直接使用1138级进行测试
+测试舰-驱逐uf_xp_dd             请直接使用956级进行测试
+测试舰-护卫uf_xp_ffg            请直接使用604级进行测试
+穿梭机“下士”                    等待
+机动防御平台“中尉”              等待
 
 战机：
 Su-32           完成

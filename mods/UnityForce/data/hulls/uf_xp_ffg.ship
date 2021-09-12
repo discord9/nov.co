@@ -1,0 +1,56 @@
+{
+  "hullName": "Xp-Ffg",
+  "hullId": "uf_xp_ffg",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/uf_xp_ffg.png",
+  "style": "MIDLINE",
+  "height": 520,
+  "width": 290,
+  "center": [145, 260],
+  "collisionRadius": 357.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 280,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [199, 3.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [61, -41.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [61, 41.5]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -226, -3.5,
+    46, -52.5,
+    133, -68.5,
+    199, -57.5,
+    258, -12.5,
+    258, 12.5,
+    199, 57.5,
+    133, 68.5,
+    46, 52.5,
+    -226, 3.5
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "hullName": "1160A",
+  "hullId": "uf_1160a",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/uf_1160a.png",
+  "style": "MIDLINE",
+  "height": 402,
+  "width": 258,
+  "center": [129, 201],
+  "collisionRadius": 255,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 228,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0008": "uf_zircon_1160a_launcher",
+    "WS0009": "uf_zircon_1160a_launcher",
+    "WS0010": "uf_zircon_1160a_launcher"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [132, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-54, -43]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -0,
+      "locations": [-54, 43]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 180,
+      "locations": [-143, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [47, 0.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-47.5, 0.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [1, -0]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 360,
+      "angle": 0,
+      "locations": [78, -0]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-116.5, -34.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-116.5, 36.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-29.5, 23]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-30, 9]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-30, -6.5]
+    },
+    {
+      "id": "LB 4",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-30, -23.5]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -174, -6.5,
+    -167.5, -15,
+    -197.5, -23,
+    -161.5, -60,
+    -144, -60.5,
+    -118, -127.5,
+    -83, -127.5,
+    -36.5, -82.5,
+    151.5, -15,
+    199.5, -7,
+    199.5, 7,
+    151.5, 15,
+    -36.5, 82.5,
+    -83, 127.5,
+    -118, 127.5,
+    -144, 60.5,
+    -161.5, 60,
+    -197.5, 23,
+    -167.5, 15,
+    -174, 6.5
+  ]
+}

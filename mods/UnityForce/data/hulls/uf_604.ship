@@ -1,0 +1,59 @@
+{
+  "hullName": "604",
+  "hullId": "uf_604",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/uf_604.png",
+  "style": "MIDLINE",
+  "height": 137,
+  "width": 74,
+  "center": [145, 260],
+  "collisionRadius": 357.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 280,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0001": "uf_zircon_604_launcher"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-153, 108]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-128, 108]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-173, 108]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -226, -3.5,
+    46, -52.5,
+    133, -68.5,
+    199, -57.5,
+    258, -12.5,
+    258, 12.5,
+    199, 57.5,
+    133, 68.5,
+    46, 52.5,
+    -226, 3.5
+  ]
+}
