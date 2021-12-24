@@ -6,10 +6,10 @@
   "style": "MIDLINE",
   "height": 137,
   "width": 74,
-  "center": [145, 260],
-  "collisionRadius": 357.5,
-  "shieldCenter": [0, 0],
-  "shieldRadius": 280,
+  "center": [37, 68],
+  "collisionRadius": 88.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 79,
   "viewOffset": 0,
   "builtInWeapons": {
     "WS0001": "uf_zircon_604_launcher"
@@ -22,7 +22,7 @@
       "mount": "TURRET",
       "arc": 0,
       "angle": -0,
-      "locations": [-153, 108]
+      "locations": [39, 0]
     },
     {
       "id": "WS0005",
@@ -31,7 +31,7 @@
       "mount": "HARDPOINT",
       "arc": 0,
       "angle": -0,
-      "locations": [-128, 108]
+      "locations": [64, 0]
     },
     {
       "id": "WS0001",
@@ -40,20 +40,16 @@
       "mount": "HARDPOINT",
       "arc": 0,
       "angle": 0,
-      "locations": [-173, 108]
+      "locations": [19, 0]
     }
   ],
   "engineSlots": [],
   "bounds": [
-    -226, -3.5,
-    46, -52.5,
-    133, -68.5,
-    199, -57.5,
-    258, -12.5,
-    258, 12.5,
-    199, 57.5,
-    133, 68.5,
-    46, 52.5,
-    -226, 3.5
+    -43, -1.5,
+    41, -17,
+    62, -7.5,
+    62, 7.5,
+    41, 17,
+    -43, 1.5
   ]
 }
