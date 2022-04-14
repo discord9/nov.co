@@ -1,9 +1,11 @@
 name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,autofireAccBonus,extraArcForAI,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
 2A38 Dual Pushka,uf_2A38,1,0.5,100,825,,40,,8,80,4,60,25,60,HIGH_EXPLOSIVE,2,,0,0.01,1,0,0,10,1,5,,800,,,,,,"DO_NOT_CONSERVE,PD_ONLY,ANTI_FTR",,,,,Anti Air,,,,,,,,,,
-CM40 Tiger Tongs,uf_cm40,2,0.5,100,800,,300,,8,30,12,10,2,10,HIGH_EXPLOSIVE,2,,0,0.5,1,0,0,10,1,5,,800,,,,,,,,,,,Anti Armor,,,,,,,,,,
-CM41 Fire Tongs,uf_cm41,2,0.5,100,500,,800,,16,30,4,10,2,10,HIGH_EXPLOSIVE,2,,0,0.5,1,0,0,10,1,5,,800,,,,,,,,,,,Anti Armor,,,,,,,,,,
+CM10 Range,uf_cm10,2,0.5,100,400,,150,,8,120,8,2,4,2,FRAGMENTATION,50,,0,0.5,2,0,0,10,1,5,,800,,,,,,PD,,,,,Anti Armor,,,,,,,,,,
+CM40 Tiger Tongs,uf_cm40,2,0.5,100,800,,300,,8,30,12,10,2,10,HIGH_EXPLOSIVE,300,,0,2.5,2,0,0,10,1,5,,800,,,,,,,,,,,Anti Armor,,,,,,,,,,
+CM41 Fire Tongs,uf_cm41,2,0.5,100,500,,150,,16,60,12,10,2,10,FRAGMENTATION,50,,0,0.33,2,0,0,10,1,5,,800,,,,,,PD,,,,,Anti Armor,,,,,,,,,,
 CM60 Heavy Hammer,uf_cm60,2,0.5,100,825,,800,,8,30,4,10,2,10,HIGH_EXPLOSIVE,2,,0,0.5,1,0,0,10,1,5,,800,,,,,,,,,,,Anti Armor,,,,,,,,,,
-2K22 Tunguska,uf_2K22,2,0.5,300,825,,40,,8,80,8,60,25,60,HIGH_EXPLOSIVE,2,,0,0.01,1,0,0,10,1,5,,800,,,,,,"DO_NOT_CONSERVE,PD_ONLY,ANTI_FTR",,,,,Anti Air,,,,,40,,,,,
+2K17 Pattern,uf_2K17,2,0.5,300,350,,25,,8,80,8,24,8,8,HIGH_EXPLOSIVE,3,,0,0.01,1,0,0,1,1,5,,800,,,,,,PD,,,,,Anti Air,,,,,40,,,,,
+2K22 Treatise,uf_2K22,2,0.5,300,825,,40,,8,80,8,60,25,60,HIGH_EXPLOSIVE,2,,0,0.01,1,0,0,10,1,5,,800,,,,,,"DO_NOT_CONSERVE,PD_ONLY,ANTI_FTR",,,,,Anti Air,,,,,40,,,,,
 9M311 Launcher,uf_9M311_launcher,5,,900,1800,,500,,25,10,7,30,0.1,,HIGH_EXPLOSIVE,0,,0,3,3,0.4,0,0,0,0,,500,100,20,10,,,"DO_NOT_AIM, CONSERVE_1","utility13, missile7, missile_bp, merc",,,,Long Range Support,Fast,Excellent,,,,,,,,this weapon shouldn't show up in game.
 3S26U2 Zircon(956),uf_zircon_956_launcher,5,0,1800,3325,,1100,,50,10,7,6,0.2,,HIGH_EXPLOSIVE,1,,1.5,1.5,6,0.4,0,0,0,0,,500,100,20,30,,,"DO_NOT_AIM, CONSERVE_1","utility13, missile7, missile_bp, merc",,,,Long Range Support,Fast,Excellent,,,,,,,,this weapon should only show up in 956's built-in weapon.
 Navigation Light,uf_nav_light_956,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,45
