@@ -18,9 +18,11 @@ import org.lwjgl.util.vector.Vector2f;
 
 import data.scripts.util.MagicTargeting;
 
-
+/// detach a missile into two parts(upper stage and lower stage) when into certain range `detachRange`
 public class StageDetachMissileAIPlugin extends PSE_withPriorityMissileAI{
     private JSONObject behaviorSpec;
+    // a missile detach into two parts: upper stage and lower stage
+    //
     private String upperStageWrapperId,behavior,lowerStageWrapperId;
     private float detachRange;
     //改成继承PSE

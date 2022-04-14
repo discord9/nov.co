@@ -17,7 +17,9 @@ import com.fs.starfarer.api.PluginPick;
 import com.fs.starfarer.api.campaign.CampaignPlugin.PickPriority;
 
 public class UnityForceModPlugin extends BaseModPlugin{
+    // init the mod, should be called by onNewGame(Uncompleted)
     private static void initUnityForceMod(){
+        // init star system generate
         new UnityForceModGen().generate(Global.getSector());
     }
     @Override
@@ -26,7 +28,7 @@ public class UnityForceModPlugin extends BaseModPlugin{
         //initUnityForceMod();
         //do not do it now,gen not complete!
     }
-    //test
+    /// change AI for `zircon` missile
     @Override
     public PluginPick<MissileAIPlugin> pickMissileAI(MissileAPI missile, ShipAPI launchingShip){
         switch(missile.getProjectileSpecId()){
